@@ -63,4 +63,10 @@ Train a Reinforcement Learning (RL) agent to make decisions regarding donor enga
 2. **stable-baselines3**: This library provides implementations of various RL algorithms, such as Proximal Policy Optimization (PPO) or Deep Q-Networks (DQN), which can be used to train the agent.
 3. **ray[rllib]** (optional): This library can be used for scaling experiments, allowing for distributed training and evaluation of the RL agent.
 
+
 <img width="2846" height="1518" alt="image" src="https://github.com/user-attachments/assets/3271534a-3f1e-471b-b8f4-18330bb525f0" />
+
+
+TPOT (Tree-based Pipeline Optimization Tool) is utilized in personalized healthcare recommendation systems to automate the optimization of machine learning pipelines. It enhances predictive accuracy by leveraging genetic algorithms to identify the best models and preprocessing steps tailored to individual patient data. 
+
+
