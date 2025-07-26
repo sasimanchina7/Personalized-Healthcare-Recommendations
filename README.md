@@ -69,4 +69,10 @@ Train a Reinforcement Learning (RL) agent to make decisions regarding donor enga
 
 TPOT (Tree-based Pipeline Optimization Tool) is utilized in personalized healthcare recommendation systems to automate the optimization of machine learning pipelines. It enhances predictive accuracy by leveraging genetic algorithms to identify the best models and preprocessing steps tailored to individual patient data. 
 
+| Task                         | Command                                |
+| ---------------------------- | -------------------------------------- |
+| Predict donation (0 or 1)    | `pipeline.predict(X_test)`             |
+| Predict donation probability | `pipeline.predict_proba(X_test)[:, 1]` |
+| Set custom threshold         | `(proba > threshold).astype(int)`      |
+| Predict for one person       | `pipeline.predict(new_user)`           |
 
